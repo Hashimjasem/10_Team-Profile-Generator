@@ -1,12 +1,12 @@
-const Manager = require("./src/manager.js");
-const Engineer = require("./src/engineer.js");
-const Intern = require("./src/intern.js");
-const inquirer = require("inquirer");
-const path = require("path");
-const fs = require("fs");
-const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
-const generateTeam = require("./template.js")
+const Manager = require('../src/manager');
+const Engineer = require('./src/engineer.js');
+const Intern = require('./src/intern.js');
+const inquirer = require('inquirer');
+const path = require('path');
+const fs = require('fs');
+const OUTPUT_DIR = path.resolve(__dirname, 'output');
+const outputPath = path.join(OUTPUT_DIR, 'team.html');
+const generateTeam = require('./template.js');
 
 teamArray = [];
 

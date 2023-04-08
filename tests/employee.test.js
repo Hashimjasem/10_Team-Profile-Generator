@@ -1,4 +1,4 @@
-const employee = require('../src/employee.js')
+const Employee = require('../src/employee.js')
 
 test("Can create an new employee.", () => {
     const employeeInstance = new Employee();
